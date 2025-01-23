@@ -46,19 +46,7 @@ export const QuestionView: React.FC<{
           >
             Modifica
           </Button>
-<<<<<<< HEAD
           <Button endDecorator={<DeleteIcon />} style={{ backgroundColor: "#ab003c", color: "white" }} onClick={()=>{if(window.confirm("Vuoi eliminare la domanda?")){onDelete(index)}}} size="sm" >
-=======
-          <Button
-            endDecorator={<DeleteIcon />}
-            onClick={() => {
-              if (window.confirm("Vuoi eliminare la domanda?")) {
-                onDelete(index);
-              }
-            }}
-            size="sm"
-          >
->>>>>>> c49b25be734f159f016615c578f9a2b28dc9a0f4
             Elimina
           </Button>
         </Stack>
